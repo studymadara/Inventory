@@ -40,6 +40,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Login ID"
+        style="@style/Base.Widget.AppCompat.Button.Borderless"
         android:textStyle="bold"
         android:textSize="25dp"/>
 
@@ -83,6 +84,8 @@
     <EditText
         android:layout_width="fill_parent"
         android:id="@+id/pass"
+        android:singleLine="true"
+        android:inputType="numberPassword"
         android:layout_height="wrap_content"
         android:hint="Enter Password"
         />
@@ -100,7 +103,10 @@
     <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Login"/>
+        android:text="Login"
+        android:id="@+id/login"
+        android:inputType="text"
+        style="@style/Base.Widget.AppCompat.Button.Colored"/>
 
 
 
